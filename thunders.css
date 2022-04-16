@@ -1,0 +1,38 @@
+:root {
+    --bgclr: rgb(48, 48, 48);
+}
+
+body {
+    background-color: var(--bgclr);
+}
+
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 1em;
+
+    padding: 1em;
+    background-color: rgb(33, 31, 78);
+
+    border-radius: 3em;
+
+    /* filter:blur(1px); */
+}
+
+#generate {
+    margin: 0.5em;
+    margin-bottom: 0.2em;
+    padding: 0.6em;
+    padding-block: 0.2em;
+    border-radius: 0.2em;
+    font-size: 3em;
+
+    color:aqua;
+    background-color: var(--bgclr);
+
+    border-radius: 3em;
+    border: 2px solid aqua;
+}
